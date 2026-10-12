@@ -1,0 +1,37 @@
+name: Bug report
+description: Something is wrong or broken
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Addon version
+      description: Shown on the About tab of the settings window (/tkmpc).
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Dungeon and key level
+      description: Leave blank if it did not happen in a key.
+  - type: input
+    id: nameplates
+    attributes:
+      label: Nameplate addon
+      description: Blizzard, Platynator, EllesmereUI, Plater, ElvUI, RyoUI, ThreatPlates, ...
+  - type: textarea
+    id: error
+    attributes:
+      label: Lua error text
+      description: If there was an error popup, paste it here.
+      render: text
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else
