@@ -7,6 +7,10 @@ stacked on a progress bar, milestone markers, and a keystone timer.
 This repository holds no source code. It exists so bug reports and suggestions
 have one place to live.
 
+- **Game version:** WoW 12.1.5 (Interface `120105`).
+- **Current release:** 1.0.1. The [changelog](https://www.curseforge.com/projects/1740033)
+  is on the CurseForge project's Files tab.
+
 ## Install
 
 Get the addon from [CurseForge](https://www.curseforge.com/projects/1740033), or
@@ -41,6 +45,7 @@ Things worth knowing:
    - the dungeon and key level, if it happened in a key
    - your nameplate addon (Blizzard, Platynator, EllesmereUI, Plater, ElvUI, ...)
    - the addon version (shown on the settings window's About tab)
+   - your game build (type `/dump GetBuildInfo()` in chat)
    - any Lua error text (an addon such as BugSack makes these easy to copy)
    - a screenshot, if it is a display problem
 

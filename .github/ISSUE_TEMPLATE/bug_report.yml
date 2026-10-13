@@ -16,6 +16,11 @@ body:
     validations:
       required: true
   - type: input
+    id: build
+    attributes:
+      label: Game version
+      description: "Type /dump GetBuildInfo() in chat; the first value is the game version, for example 12.1.5."
+  - type: input
     id: context
     attributes:
       label: Dungeon and key level
